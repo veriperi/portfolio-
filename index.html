@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <main>
+        <nav class="navBar">
+            <h1>Vidhi Vesmaker</h1>
+            <div class="navigationMenu">
+                <a href="#aboutMe">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contactForm">Contact</a>
+            </div>
+        </nav>
+        <section class="heroSection">
+            <img class="profileImage" src="img/prof.jpeg" alt="profile picture">
+            <div class="heroSectionDetails">
+                <h1>Vidhi</h1>
+                <h3>Full-Stack Web Developer</h3>
+            </div>
+        </section>
+        <section class="aboutMe" id="aboutMe">
+            <h1>What I Do...</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aut illo blanditiis in facilis optio
+                ullam, fuga quas totam quis veniam sit! Assumenda modi fuga excepturi! Obcaecati assumenda velit
+                perferendis!
+                Ad in cumque dignissimos vitae possimus officia atque laboriosam debitis quos blanditiis earum cum ea
+                explicabo eligendi, expedita error aut, sapiente repudiandae, ut cupiditate placeat nulla. Doloremque
+                sed sequi quae.
+                Consectetur cupiditate autem officiis in, aperiam commodi earum odio expedita! Facilis distinctio est
+                laudantium facere esse dolorum inventore eos? Autem qui minus officia placeat fugit, quo impedit itaque
+                iure cum.</p>
+        </section>
+        <section class="skillsandprojects">
+            <div class="skills" id="skills">
+                <h1 class="cardHeading">Skills</h1>
+                <img src="img/html.svg" alt="" title="html">
+                <img src="img/css.svg" alt="" title="css">
+                <img src="img/js.svg" alt="" title="js">
+                <img src="img/nodejs.svg" alt="" title="node.js">
+                <img src="img/react.svg" alt="" title="react">
+                <img src="img/mdb.svg" alt="" title="mongodb">
+                <img src="img/fb.svg" alt="" title="firebase">
+                <img src="img/redux.svg" alt="" title="redux">
+            </div>
+            <div class="projects" id="projects">
+                <h1 class="cardHeading">Projects</h1>
+                <div class="projectContainer">
+                    <img src="img/hotel.svg" alt="">
+                    <div class="projectDescription">
+                        <h4>Hotel Management</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam facere omnis perspiciatis
+                        </p>
+                    </div>
+                </div>
+                <div class="projectContainer">
+                    <img src="img/cryp.svg" alt="">
+                    <div class="projectDescription">
+                        <h4>Cryptocurrency Value Tracker</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam facere omnis perspiciatis
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='contactForm' id='contactForm'>
+            <h1>Let's Connect!</h2>
+                <div class='formGroup'>
+                    <label for='name'>Enter Full Name</label><br />
+                    <input type='text' id='name' placeholder='Full Name' />
+                </div>
+                <div class='formGroup'>
+                    <label for='email'>Email</label><br />
+                    <input type='text' id='email' placeholder='Email' />
+                </div>
+                <div class='formGroup'>
+                    <label for='message'>Message</label><br />
+                    <textarea placeholder="Your message?" id="message" name="w3review" rows="4" cols="50"></textarea>
+                </div>
+                <button class='submitButton' onClick={submit()}>Connect</button>
+        </section>
+        <footer>
+            <div class="footerContent">
+                <a href="https://www.instagram.com/valrtco/" target="_blank"> <img src="img/insta.svg" alt="instagram"></a>
+                <a href="https://github.com/veriperi" target="_blank"> <img src="img/git.svg" alt="github"></a>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
